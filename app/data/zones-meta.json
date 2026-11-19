@@ -1,0 +1,609 @@
+[
+  {
+    "id": "downtown",
+    "name": "Downtown Dubai",
+    "blurb": "Burj Khalifa, Dubai Mall and the fountain promenade.",
+    "tier": "polished",
+    "style": "glass",
+    "home": false,
+    "world": {},
+    "bbox": [
+      55.262,
+      25.185,
+      55.29,
+      25.215
+    ],
+    "camera": {
+      "center": [
+        55.2744,
+        25.1972
+      ],
+      "zoom": 15.2,
+      "pitch": 60,
+      "bearing": -25
+    },
+    "buildings": 3371,
+    "confidence": {
+      "inferred": 2792,
+      "tagged": 578,
+      "landmark": 1
+    },
+    "tall": {
+      "total": 370,
+      "known": 262
+    },
+    "badge": "medium",
+    "landmarks": [
+      "Burj Khalifa"
+    ]
+  },
+  {
+    "id": "business-bay",
+    "name": "Business Bay",
+    "blurb": "Towers along the canal.",
+    "tier": "preview",
+    "style": "default",
+    "home": false,
+    "world": {},
+    "bbox": [
+      55.25,
+      25.17,
+      55.285,
+      25.188
+    ],
+    "camera": {
+      "center": [
+        55.2665,
+        25.1855
+      ],
+      "zoom": 15.4,
+      "pitch": 60,
+      "bearing": -30
+    },
+    "buildings": 2232,
+    "confidence": {
+      "inferred": 2120,
+      "tagged": 112
+    },
+    "tall": {
+      "total": 138,
+      "known": 63
+    },
+    "badge": "rough",
+    "landmarks": []
+  },
+  {
+    "id": "difc",
+    "name": "DIFC and Trade Centre",
+    "blurb": "Emirates Towers and the financial district.",
+    "tier": "preview",
+    "style": "default",
+    "home": false,
+    "world": {},
+    "bbox": [
+      55.262,
+      25.215,
+      55.292,
+      25.236
+    ],
+    "camera": {
+      "center": [
+        55.279,
+        25.222
+      ],
+      "zoom": 15.4,
+      "pitch": 60,
+      "bearing": 15
+    },
+    "buildings": 5621,
+    "confidence": {
+      "inferred": 5400,
+      "tagged": 219,
+      "landmark": 2
+    },
+    "tall": {
+      "total": 238,
+      "known": 160
+    },
+    "badge": "rough",
+    "landmarks": [
+      "Emirates Towers",
+      "Museum of the Future"
+    ]
+  },
+  {
+    "id": "city-walk",
+    "name": "City Walk and Al Wasl",
+    "blurb": "Low-rise streets and open-air retail.",
+    "tier": "preview",
+    "style": "default",
+    "home": false,
+    "world": {},
+    "bbox": [
+      55.236,
+      25.195,
+      55.264,
+      25.213
+    ],
+    "camera": {
+      "center": [
+        55.2605,
+        25.2065
+      ],
+      "zoom": 15.6,
+      "pitch": 60,
+      "bearing": 25
+    },
+    "buildings": 5225,
+    "confidence": {
+      "inferred": 4656,
+      "tagged": 569
+    },
+    "tall": {
+      "total": 50,
+      "known": 17
+    },
+    "badge": "rough",
+    "landmarks": []
+  },
+  {
+    "id": "jumeirah",
+    "name": "Jumeirah Beach Road",
+    "blurb": "Villa streets and the coast.",
+    "tier": "polished",
+    "style": "villa",
+    "home": false,
+    "world": {
+      "boats": {
+        "speedboat": 2
+      }
+    },
+    "bbox": [
+      55.215,
+      25.205,
+      55.255,
+      25.24
+    ],
+    "camera": {
+      "center": [
+        55.24,
+        25.226
+      ],
+      "zoom": 15.5,
+      "pitch": 58,
+      "bearing": -30
+    },
+    "buildings": 889,
+    "confidence": {
+      "inferred": 886,
+      "tagged": 3
+    },
+    "tall": {
+      "total": 2,
+      "known": 2
+    },
+    "badge": "rough",
+    "landmarks": []
+  },
+  {
+    "id": "umm-suqeim",
+    "name": "Umm Suqeim and Burj Al Arab",
+    "blurb": "Burj Al Arab and Madinat Jumeirah.",
+    "tier": "polished",
+    "style": "villa",
+    "home": false,
+    "world": {
+      "boats": {
+        "yacht": 3,
+        "dhow": 1
+      }
+    },
+    "bbox": [
+      55.168,
+      25.125,
+      55.206,
+      25.156
+    ],
+    "camera": {
+      "center": [
+        55.187,
+        25.14
+      ],
+      "zoom": 15.3,
+      "pitch": 58,
+      "bearing": 40
+    },
+    "buildings": 5081,
+    "confidence": {
+      "inferred": 5004,
+      "tagged": 76,
+      "landmark": 1
+    },
+    "tall": {
+      "total": 9,
+      "known": 9
+    },
+    "badge": "medium",
+    "landmarks": [
+      "Burj Al Arab"
+    ]
+  },
+  {
+    "id": "marina",
+    "name": "Dubai Marina and JBR",
+    "blurb": "Skyscraper canyons and the Marina Walk.",
+    "tier": "polished",
+    "style": "glass",
+    "home": true,
+    "world": {
+      "boats": {
+        "yacht": 10,
+        "speedboat": 4,
+        "dhow": 2
+      }
+    },
+    "bbox": [
+      55.125,
+      25.068,
+      55.152,
+      25.096
+    ],
+    "camera": {
+      "center": [
+        55.1405,
+        25.0805
+      ],
+      "zoom": 15.7,
+      "pitch": 64,
+      "bearing": 28
+    },
+    "buildings": 1079,
+    "confidence": {
+      "inferred": 747,
+      "tagged": 330,
+      "landmark": 2
+    },
+    "tall": {
+      "total": 332,
+      "known": 268
+    },
+    "badge": "medium",
+    "landmarks": [
+      "Cayan Tower",
+      "Princess Tower"
+    ]
+  },
+  {
+    "id": "palm",
+    "name": "Palm Jumeirah",
+    "blurb": "The trunk, the crescent and the fronds.",
+    "tier": "polished",
+    "style": "villa",
+    "home": false,
+    "world": {
+      "boats": {
+        "yacht": 8,
+        "speedboat": 4
+      }
+    },
+    "bbox": [
+      55.1,
+      25.1,
+      55.16,
+      25.162
+    ],
+    "camera": {
+      "center": [
+        55.1325,
+        25.1155
+      ],
+      "zoom": 14.6,
+      "pitch": 58,
+      "bearing": -12
+    },
+    "buildings": 2909,
+    "confidence": {
+      "tagged": 284,
+      "inferred": 2625
+    },
+    "tall": {
+      "total": 99,
+      "known": 99
+    },
+    "badge": "medium",
+    "landmarks": []
+  },
+  {
+    "id": "heritage",
+    "name": "Al Fahidi and Al Seef",
+    "blurb": "Wind towers, lanes and the creek-side old town.",
+    "tier": "polished",
+    "style": "heritage",
+    "home": false,
+    "world": {
+      "boats": {
+        "dhow": 5,
+        "speedboat": 1
+      }
+    },
+    "bbox": [
+      55.288,
+      25.254,
+      55.312,
+      25.273
+    ],
+    "camera": {
+      "center": [
+        55.2992,
+        25.264
+      ],
+      "zoom": 16.3,
+      "pitch": 58,
+      "bearing": 18
+    },
+    "buildings": 2999,
+    "confidence": {
+      "inferred": 2641,
+      "tagged": 358
+    },
+    "tall": {
+      "total": 117,
+      "known": 117
+    },
+    "badge": "medium",
+    "landmarks": []
+  },
+  {
+    "id": "deira",
+    "name": "Deira and the Creek",
+    "blurb": "Souks, dhows and the Gold Souk.",
+    "tier": "polished",
+    "style": "dense",
+    "home": false,
+    "world": {
+      "boats": {
+        "dhow": 6,
+        "speedboat": 1
+      }
+    },
+    "bbox": [
+      55.305,
+      25.25,
+      55.346,
+      25.286
+    ],
+    "camera": {
+      "center": [
+        55.319,
+        25.268
+      ],
+      "zoom": 15.6,
+      "pitch": 58,
+      "bearing": -25
+    },
+    "buildings": 7484,
+    "confidence": {
+      "inferred": 7192,
+      "tagged": 292
+    },
+    "tall": {
+      "total": 681,
+      "known": 205
+    },
+    "badge": "rough",
+    "landmarks": []
+  },
+  {
+    "id": "creek-harbour",
+    "name": "Dubai Creek Harbour",
+    "blurb": "New towers on the quiet end of the creek.",
+    "tier": "preview",
+    "style": "default",
+    "home": false,
+    "world": {},
+    "bbox": [
+      55.326,
+      25.195,
+      55.362,
+      25.222
+    ],
+    "camera": {
+      "center": [
+        55.342,
+        25.205
+      ],
+      "zoom": 15.2,
+      "pitch": 60,
+      "bearing": 20
+    },
+    "buildings": 1133,
+    "confidence": {
+      "inferred": 1068,
+      "tagged": 65
+    },
+    "tall": {
+      "total": 84,
+      "known": 45
+    },
+    "badge": "rough",
+    "landmarks": []
+  },
+  {
+    "id": "internet-city",
+    "name": "Internet City and Al Sufouh",
+    "blurb": "Tech campuses and the tram line.",
+    "tier": "preview",
+    "style": "default",
+    "home": false,
+    "world": {},
+    "bbox": [
+      55.16,
+      25.09,
+      55.19,
+      25.115
+    ],
+    "camera": {
+      "center": [
+        55.1745,
+        25.101
+      ],
+      "zoom": 15.4,
+      "pitch": 60,
+      "bearing": 10
+    },
+    "buildings": 3387,
+    "confidence": {
+      "inferred": 2845,
+      "tagged": 542
+    },
+    "tall": {
+      "total": 203,
+      "known": 89
+    },
+    "badge": "rough",
+    "landmarks": []
+  },
+  {
+    "id": "al-barsha",
+    "name": "Al Barsha and Mall of the Emirates",
+    "blurb": "The mall, the ski dome and quiet villa blocks.",
+    "tier": "preview",
+    "style": "default",
+    "home": false,
+    "world": {},
+    "bbox": [
+      55.19,
+      25.105,
+      55.22,
+      25.125
+    ],
+    "camera": {
+      "center": [
+        55.2005,
+        25.118
+      ],
+      "zoom": 15.4,
+      "pitch": 60,
+      "bearing": -20
+    },
+    "buildings": 3631,
+    "confidence": {
+      "inferred": 3224,
+      "tagged": 407
+    },
+    "tall": {
+      "total": 183,
+      "known": 183
+    },
+    "badge": "medium",
+    "landmarks": []
+  },
+  {
+    "id": "dubai-hills",
+    "name": "Dubai Hills",
+    "blurb": "Villas, parks and the golf course.",
+    "tier": "preview",
+    "style": "default",
+    "home": false,
+    "world": {},
+    "bbox": [
+      55.235,
+      25.095,
+      55.272,
+      25.125
+    ],
+    "camera": {
+      "center": [
+        55.253,
+        25.11
+      ],
+      "zoom": 15.0,
+      "pitch": 60,
+      "bearing": 20
+    },
+    "buildings": 3447,
+    "confidence": {
+      "inferred": 3333,
+      "tagged": 114
+    },
+    "tall": {
+      "total": 36,
+      "known": 36
+    },
+    "badge": "medium",
+    "landmarks": []
+  },
+  {
+    "id": "al-quoz",
+    "name": "Al Quoz",
+    "blurb": "Warehouses turned galleries.",
+    "tier": "preview",
+    "style": "default",
+    "home": false,
+    "world": {},
+    "bbox": [
+      55.22,
+      25.13,
+      55.255,
+      25.16
+    ],
+    "camera": {
+      "center": [
+        55.235,
+        25.145
+      ],
+      "zoom": 15.2,
+      "pitch": 60,
+      "bearing": -10
+    },
+    "buildings": 4839,
+    "confidence": {
+      "inferred": 4744,
+      "tagged": 95
+    },
+    "tall": {
+      "total": 32,
+      "known": 32
+    },
+    "badge": "medium",
+    "landmarks": []
+  },
+  {
+    "id": "bur-dubai",
+    "name": "Bur Dubai and Karama",
+    "blurb": "Dense old streets east of the creek bend.",
+    "tier": "preview",
+    "style": "default",
+    "home": false,
+    "world": {},
+    "bbox": [
+      55.293,
+      25.225,
+      55.32,
+      25.254
+    ],
+    "camera": {
+      "center": [
+        55.306,
+        25.24
+      ],
+      "zoom": 15.6,
+      "pitch": 60,
+      "bearing": 10
+    },
+    "buildings": 3093,
+    "confidence": {
+      "inferred": 3011,
+      "tagged": 81,
+      "landmark": 1
+    },
+    "tall": {
+      "total": 342,
+      "known": 36
+    },
+    "badge": "rough",
+    "landmarks": [
+      "Dubai Frame"
+    ]
+  }
+]

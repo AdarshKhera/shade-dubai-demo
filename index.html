@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shade Dubai test notes</title>
+<style>
+:root{color-scheme:dark}
+body{margin:0;background:#0b1018;color:#edf1f6;font:16px/1.55 -apple-system,system-ui,sans-serif}
+main{max-width:640px;margin:0 auto;padding:28px 16px 64px}
+h1{font:600 30px/1.15 Georgia,serif;margin:0 0 6px}
+h2{font:600 13px/1 system-ui;letter-spacing:.12em;text-transform:uppercase;color:#9aa6b4;margin:32px 0 10px}
+p{color:rgba(237,241,246,.78);margin:8px 0}
+a.go{display:block;padding:16px;border-radius:14px;background:#f5c56b;color:#1a1305;font-weight:600;text-align:center;text-decoration:none;margin:18px 0 10px}
+a.alt{display:block;padding:14px 16px;border:1px solid rgba(255,255,255,.14);border-radius:12px;color:#edf1f6;text-decoration:none;margin:8px 0}
+a.alt small{display:block;color:#9aa6b4}
+label{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.07)}
+input{width:22px;height:22px;flex:none;margin-top:2px}
+footer{margin-top:36px;font-size:13px;color:#9aa6b4}
+</style></head><body><main>
+<h1>Shade Dubai</h1>
+<p>Phone test build. A 3D map of where the sun and shade fall on Dubai streets.</p>
+<a class="go" href="app/">Open the app</a>
+<a class="alt" href="app/?z=marina&h=15">Dubai Marina, 3 PM<small>Straight into the detailed district</small></a>
+<a class="alt" href="app/?z=downtown&h=17">Downtown, 5 PM<small>Tall towers, long shadows</small></a>
+<a class="alt" href="app/?z=heritage&h=10">Al Fahidi heritage, 10 AM<small>Low buildings, narrow lanes</small></a>
+
+<h2>Things to test on your phone</h2>
+<p>Tick as you go. Ticks stay on this device only.</p>
+<label><input type="checkbox">Map fills most of the screen with the bottom bar showing</label>
+<label><input type="checkbox">Drag to pan, pinch to zoom, two fingers to rotate</label>
+<label><input type="checkbox">Tap a street: a small card shows its shade right now</label>
+<label><input type="checkbox">Drag the time slider; the shadows move</label>
+<label><input type="checkbox">Tap the time: a clock face opens, set a time</label>
+<label><input type="checkbox">Now button returns to the current Dubai time</label>
+<label><input type="checkbox">Drag the bar up: more detail, nothing clipped or overlapping</label>
+<label><input type="checkbox">Search "burj", "marina", "jbr"; tap a result; the map flies there</label>
+<label><input type="checkbox">Search opens full screen and closes cleanly</label>
+<label><input type="checkbox">Zoom and rotate buttons are easy to hit with a thumb</label>
+<label><input type="checkbox">Portrait and landscape both usable</label>
+<label><input type="checkbox">Scrolling the page never gets stuck behind the map</label>
+
+<h2>Notes</h2>
+<p>Shade comes from buildings only. Trees, awnings and clouds are not modelled. Heights are real where known, guessed elsewhere. Only some districts are detailed; the rest are rough.</p>
+<footer>Independent concept. Not affiliated with any government entity. Data: OpenStreetMap contributors, Overture Maps, Open-Meteo.</footer>
+</main>
+<script>
+try{document.querySelectorAll('input').forEach((el,i)=>{const k='t'+i;el.checked=localStorage.getItem(k)==='1';el.onchange=()=>localStorage.setItem(k,el.checked?'1':'0')})}catch(e){}
+</script></body></html>
